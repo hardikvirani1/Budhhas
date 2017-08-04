@@ -8,6 +8,9 @@ import LoginView from './components/LoginView';
 
 export default class main extends Component {
     render(){
+
+
+
         return(
             <Provider store={createStore(reducer, {}, applyMiddleware(ReduxThunk))}>
                 <View>
